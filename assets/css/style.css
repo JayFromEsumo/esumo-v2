@@ -1332,7 +1332,7 @@ footer.main ul.socials li a {
 
 .single-case--hero img {
   width: 95%;
-  height: 425px;
+  height: 450px;
   margin: 0 auto 50px;
   object-fit: cover;
   object-position: center center;
@@ -1356,4 +1356,246 @@ footer.main ul.socials li a {
   max-width: 800px;
   margin: 8px auto 0 auto;
   text-align: center;
+}
+
+/* Archive Case Studies */
+
+.archive-case--hero {
+  padding: 70px 0 40px;
+  background: #fafafa;
+  background-image:linear-gradient(to bottom, #fafafa, #fff);
+}
+
+
+.archive-case--hero h2 {
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.archive-case--hero p {
+  font-size: 15px;
+  color: #464646;
+  line-height: 28px;
+  width: 100%;
+  max-width: 800px;
+  margin: 18px auto 0 auto;
+  text-align: center;
+}
+
+
+.archive-case--works{
+  padding:0 0 70px;
+  position:relative;
+}
+
+.archive-case--works:before {
+  content: "";
+  background-image: url('../img/works-bg.png');
+  width: 45%;
+  height: 330px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 50px;
+  display: block;
+}
+
+.archive-case--works ul.filters {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 25px 0 70px;
+  text-align:center;
+}
+
+.archive-case--works ul.filters li {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: #828282;
+  margin-right: 35px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.archive-case--works ul.filters li span{
+  font-size:10px;
+  font-weight:500;
+  opacity:.6;
+  display:inline-block;
+  padding-left:5px;
+}
+
+.archive-case--works ul.filters li:before {
+  content: "";
+  width: 12px;
+  height: 3px;
+  border-radius: 5px;
+  background: #cecdcc;
+  margin-right: 10px;
+}
+
+.archive-case--works ul.filters li.active {
+  color: #000000;
+}
+
+.archive-case--works ul.filters li.active:before {
+  background: #e15502;
+}
+
+.archive-case--works .row{
+  justify-content: space-between;
+}
+
+.single--case-study {
+  width: 31%;
+  margin-bottom: 50px;
+}
+
+.single--case-study:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.single--case-study a img {
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 0 49px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  display: block;
+  transition: 0.5s;
+}
+
+.single--case-study:hover a img {
+  box-shadow: 0 0 49px rgba(0, 0, 0, 0.14);
+}
+
+.single--case-study a {
+  text-decoration: none;
+}
+.single--case-study a h3 {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 25px 0 12px;
+  padding: 0 15px;
+  transition: 0.5s;
+}
+
+.single--case-study:hover a h3 {
+  color: #db4c21;
+}
+
+.single--case-study a p {
+  color: #474747;
+  font-size: 14px;
+  line-height: 27px;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.contact-page--content {
+  padding-top: 60px;
+  padding-bottom:50px;
+  position: relative;
+  background: #fafafa;
+  background-image:linear-gradient(to bottom, #fafafa, #fff);
+}
+
+
+.contact-page--content:before {
+  content: "";
+  background-image: url('../img/works-bg.png');
+  width: 45%;
+  height: 330px;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  top: 150px;
+  display: block;
+}
+
+
+.contact-page--content .contact-form {
+  width: 50%;
+  padding-right: 60px;
+}
+
+.contact-page--content .contact-form h3 {
+  font-size: 24px;
+  line-height: 36px;
+  background: linear-gradient(to right, #d63101 0%, #e15401 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 95%;
+  font-weight: 600;
+}
+
+.contact-page--content .contact-form h4 {
+  font-size: 16px;
+  line-height: 28px;
+  color:rgba(0,0,0,0.6);
+  width: 80%;
+  font-weight: 500;
+}
+
+.contact-page--content .contact-calendly {
+  width: 50%;
+  position: relative;
+  display: flex;
+  border-radius:3px;
+  overflow: hidden;
+  box-shadow:0 0 49px rgba(0,0,0,0.1);
+}
+
+.contact-page--content .contact-calendly .calendly-inline-widget{
+  width:100%;
+}
+
+
+.contact-page--content .contact-form form {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-page--content .contact-form form input {
+  width: 48%;
+  padding: 16px 0;
+  background:transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-page--content .contact-form form textarea {
+  width: 100%;
+  padding: 20px 0;
+  border: 0;
+  background:transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-page--content .contact-form form input[type="submit"] {
+  background: linear-gradient(to right, #d63100, #e15400);
+  padding: 16px 38px;
+  font-weight: 500;
+  margin-top: 25px;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 15px;
+  text-decoration: none;
+  width: auto;
 }
